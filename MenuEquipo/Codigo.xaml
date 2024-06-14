@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuEquipo.Codigo"
+             Title="Codigo">
+    <VerticalStackLayout>
+        <Label 
+            Text="Bienvenido al menu de los algoritmos en .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button Text="Programa 1" Clicked="Button_Clicked"/>
+        <Button Text="Programa 1" Clicked="Button_Clicked_1"/>
+        <Button Text="Programa 1" Clicked="Button_Clicked_2"/>
+        <Button Text="Programa 1" Clicked="Button_Clicked_3"/>
+        <Button Text="Programa 1" Clicked="Button_Clicked_4"/>
+        <Button Text="Programa 1" Clicked="Button_Clicked_5"/>
+
+    </VerticalStackLayout>
+</ContentPage>
